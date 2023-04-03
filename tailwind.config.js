@@ -1,0 +1,45 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ["Inter", ...defaultTheme.fontFamily.sans],
+      },
+      colors: {
+        violet1: "#0C008C",
+        violet2: "#1D0EBE",
+        violet3: "#3525E6",
+        violet4: "#4D3DF7",
+        violet5: "#5D55FA",
+        violet6: "#7069FA",
+        violet7: "#8888FC",
+        violet8: "#A2A5FC",
+        violet9: "#C4C6FF",
+        violet10: "#E6E6FF",
+        vert1: "#014D40",
+        vert2: "#0C6B58",
+        vert3: "#147D64",
+        vert4: "#199473",
+        vert5: "#27AB83",
+        vert6: "#3EBD93",
+        vert7: "#65D6AD",
+        vert8: "#8EEDC7",
+        vert9: "#C6F7E2",
+        vert10: "#EFFCF6",
+        gris1: "#102A43",
+        gris2: "#243B53",
+        gris3: "#334E68",
+        gris4: "#486581",
+        gris5: "#627D98",
+        gris6: "#829AB1",
+        gris7: "#9FB3C8",
+        gris8: "#BCCCDC",
+        gris9: "#D9E2EC",
+        gris10: "#F0F4F8",
+      },
+    },
+  },
+  plugins: [],
+};
